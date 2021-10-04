@@ -1,3 +1,4 @@
+import java.util.*;
 class Test 
 { 
     static int factorial(int n) 
@@ -9,7 +10,9 @@ class Test
     
     public static void main(String[] args)  
     { 
-        int num = 5; 
-        System.out.println("Factorial of "+ num + " is " + factorial(5)); 
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter your Number");
+        int n=in.nextInt();
+        System.out.println("Factorial of "+ num + " is " + factorial(n)); 
     } 
 }  
